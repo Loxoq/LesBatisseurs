@@ -1,0 +1,61 @@
+Testsuite: test.TestGame
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0,06 sec
+
+------------- Standard Output ---------------
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+------------- ---------------- ---------------
+Testcase: testPlayersInitialization(test.TestGame):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestGame.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testInitializeCardsWorkers(test.TestGame):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestGame.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testQuantities(test.TestGame):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestGame.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testConstructor(test.TestGame):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestGame.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+

@@ -1,0 +1,13 @@
+Testsuite: test.TestBatisseurs
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0,025 sec
+
+Testcase: TestLoad(test.TestBatisseurs):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at model.Batisseurs.load(Unknown Source)
+	at test.TestBatisseurs.TestLoad(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+

@@ -1,0 +1,89 @@
+Testsuite: test.TestPlayer
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0,066 sec
+
+------------- Standard Output ---------------
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+Entrez le nom du joueur n°0 :
+------------- ---------------- ---------------
+Testcase: testOpenBuild(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testGAndS(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testBuyAction(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testSendToWork(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testTakeCoin(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+Testcase: testConstructor(test.TestPlayer):	Caused an ERROR
+null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1478)
+	at model.Game.createPlayers(Unknown Source)
+	at model.Game.<init>(Unknown Source)
+	at test.TestPlayer.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
